@@ -54,11 +54,9 @@ body {
   background: none repeat scroll 0 0 #fff;
   bottom: -15px;
   color: #333;
-  content: '\f0a7';
   left: 45%;
   line-height: 1px;
   padding: 15px 8px;
-  /*position: absolute;*/
   font-family: 'FontAwesome';
 }
 
@@ -138,7 +136,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/bg-1.jpg) no-repeat top center;
+  background: #161415 url(../images/northern-lights.jpeg) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -192,10 +190,10 @@ header .banner-text hr {
   border-color: #2f2d2e;
   border-color: rgba(150, 150, 150, 0.1);
 }
-/*THIS WAS THE BACKGROUND THAT SHOWED UP WHEN YOU SCROLLED DOWN FROM THE TOP
-/*.header-overlay {
+/* THIS WAS THE BACKGROUND THAT SHOWED UP WHEN YOU SCROLLED DOWN FROM THE TOP */
+.header-overlay {
   background: #161415 url(../images/bg-blur.jpg) no-repeat top center;
-  background-size:  cover!important;
+  background-size: cover !important;
   position: absolute;
   top: 0;
   left: 0;
@@ -205,7 +203,7 @@ header .banner-text hr {
   height: 100%;
   z-index: 0;
   opacity: 0;
-}*/
+}
 /* social links */
 #social {
   background: rgba(0, 0, 0, 0.4);
@@ -463,7 +461,8 @@ body.show-menu #left-nav {
 /* 4. About Section
 /* ------------------------------------------------------------------ */
 #about {
-  background: url(../images/bg-2.jpg) no-repeat fixed center center / cover;
+  background: url(../images/floating-lanterns.jpeg) no-repeat fixed center
+    center / cover;
   overflow: hidden;
 }
 #about a,
@@ -635,11 +634,6 @@ body.show-menu #left-nav {
   font-weight: 700;
   text-transform: uppercase;
   color: #666;
-}
-#resume .section-title:after {
-  background: #fff;
-  color: #666;
-  content: '\f02d';
 }
 #resume .header-col {
   padding-top: 9px;
@@ -974,7 +968,7 @@ awards {
 /* 6. Portfolio Section
 /* ------------------------------------------------------------------ */
 #portfolio {
-  background: url(../images/bg-3.jpg) no-repeat fixed center center / cover;
+  background: url(../images/mountain.jpg) no-repeat fixed center center / cover;
   padding-top: 90px;
   padding-bottom: 60px;
 }
