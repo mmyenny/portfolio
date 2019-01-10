@@ -190,7 +190,7 @@ header .banner-text hr {
   border-color: #2f2d2e;
   border-color: rgba(150, 150, 150, 0.1);
 }
-/* THIS WAS THE BACKGROUND THAT SHOWED UP WHEN YOU SCROLLED DOWN FROM THE TOP */
+/* THIS WAS THE BACKGROUND THAT SHOWED UP WHEN YOU SCROLLED DOWN FROM THE TOP
 .header-overlay {
   background: #161415 url(../images/bg-blur.jpg) no-repeat top center;
   background-size: cover !important;
@@ -203,7 +203,7 @@ header .banner-text hr {
   height: 100%;
   z-index: 0;
   opacity: 0;
-}
+} */
 /* social links */
 #social {
   background: rgba(0, 0, 0, 0.4);
@@ -461,8 +461,9 @@ body.show-menu #left-nav {
 /* 4. About Section
 /* ------------------------------------------------------------------ */
 #about {
-  background: url(../images/floating-lanterns.jpeg) no-repeat fixed center
-    center / cover;
+  /* background: url(../images/boardwalk.jpeg) no-repeat fixed center center /
+    cover; */
+  background: rgb(48, 47, 47);
   overflow: hidden;
 }
 #about a,
@@ -769,180 +770,6 @@ awards {
   padding: 8px 15px;
   transition: box-shadow 0.5s ease-in 0.1s;
 }
-/*----------------------------------------------*/
-/*	Skill Bars
-/*----------------------------------------------*/
-.bars {
-  width: 95%;
-  float: left;
-  padding: 0;
-  text-align: left;
-  position: relative;
-}
-.bars .skills {
-  margin-top: 36px;
-  list-style: none;
-}
-.bars li {
-  position: relative;
-  margin-bottom: 60px;
-  background: #bdc3c7;
-  height: 42px;
-  border-radius: 3px;
-  overflow: hidden;
-}
-.bars li em {
-  color: #fff;
-  font: 15px/42px 'Open Sans', sans-serif;
-  letter-spacing: 2px;
-  padding-left: 20px;
-  position: relative;
-  text-transform: uppercase;
-}
-.bar-expand {
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin: 0;
-  padding-right: 24px;
-  background: #34495e;
-  display: inline-block;
-  height: 42px;
-  line-height: 42px;
-  border-radius: 3px 0 0 3px;
-}
-.ruby {
-  background: #1abc9c;
-  width: 65%;
-  -moz-animation: photoshop 2s ease;
-  -webkit-animation: photoshop 2s ease;
-}
-.rails {
-  background: #e74c3c;
-  width: 70%;
-  -moz-animation: illustrator 2s ease;
-  -webkit-animation: illustrator 2s ease;
-}
-.javascript {
-  background: #f88100;
-  width: 53%;
-  -moz-animation: wordpress 2s ease;
-  -webkit-animation: wordpress 2s ease;
-}
-.jquery {
-  background: #3498db;
-  width: 45%;
-  -moz-animation: css 2s ease;
-  -webkit-animation: css 2s ease;
-}
-.html {
-  background: #34495e;
-  width: 65%;
-  -moz-animation: html5 2s ease;
-  -webkit-animation: html5 2s ease;
-}
-.css {
-  background: #9b59b6;
-  width: 52%;
-  -moz-animation: jquery 2s ease;
-  -webkit-animation: jquery 2s ease;
-}
-@-moz-keyframes ruby {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 92%;
-  }
-}
-@-moz-keyframes rails {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 90%;
-  }
-}
-@-moz-keyframes javascript {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 70%;
-  }
-}
-@-moz-keyframes jquery {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 72%;
-  }
-}
-@-moz-keyframes html {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 65%;
-  }
-}
-@-moz-keyframes css {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 65%;
-  }
-}
-@-webkit-keyframes ruby {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 92%;
-  }
-}
-@-webkit-keyframes rails {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 90%;
-  }
-}
-@-webkit-keyframes javascript {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 70%;
-  }
-}
-@-webkit-keyframes jquery {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 72%;
-  }
-}
-@-webkit-keyframes html {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 65%;
-  }
-}
-@-webkit-keyframes css {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 65%;
-  }
-}
 /* ------------------------------------------------------------------ */
 /* Awards/Recognition Section
 /* ------------------------------------------------------------------ */
@@ -950,6 +777,7 @@ awards {
   margin-bottom: 30px;
   display: block;
 }
+
 .award-list ul li h3 {
   font-size: 18px !important;
   margin-bottom: 5px;
