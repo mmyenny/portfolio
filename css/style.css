@@ -807,8 +807,8 @@ awards {
 }
 @media (max-width: 500px) {
   .language-image img {
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
   }
 }
 /* ------------------------------------------------------------------ */
@@ -841,7 +841,7 @@ awards {
   margin-bottom: 36px;
 }
 .portfolio-item .item-wrap {
-  background: none repeat scroll 0 0 #fff;
+  /* background: none repeat scroll 0 0 #fff; */
   border: 5px solid #fff;
   box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -851,6 +851,10 @@ awards {
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .portfolio-item .item-wrap a {
   display: block;
@@ -933,6 +937,7 @@ awards {
   background: #fff;
   position: relative;
   margin: 0 auto;
+  text-align: center;
 }
 .popup-modal .description-box {
   padding: 12px 36px 18px 36px;
